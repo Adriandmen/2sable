@@ -3614,7 +3614,11 @@ def run_program(commands,
                 print(str(ex))
 
     if not has_printed and not suppress_print:
-        if stack: print(stack[len(stack) - 1])
+        if stack:
+            temp_list = []
+            for Q in stack:
+                temp_list.append(str(Q))
+            print(''.join(temp_list))
         elif ".\u02c6" in code: print(global_array[recent_inputs[0]])
         elif "\u00b5" in code: print(range_variable)
         elif "\u02c6" in code: print(global_array)
