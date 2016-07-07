@@ -1,36 +1,22 @@
-# 05AB1E
-A new (experimental) golfing language. If the name **05AB1E** was interpreted as a hexadecimal number and converted to base64, it would result into "Base". I wanted to make a language which has an advantage in base conversion, but now it more of an overall language.
-
-You can try this language out yourself at: [Try it online!](http://05ab1e.tryitonline.net/). This interpreter is provided by [DennisMitchell](https://github.com/DennisMitchell).
+# 2sable
+A new (experimental) golfing language, derivated from 05AB1E. The name **2sable** comes from the words two and usable, which results into twosable. Although it's very similar to 05AB1E, 2sable uses only **1 input**. This means that for example the program `*` doesn't request input twice, but only _once_.  
 
 For information about all the commands, go to _Info.txt_
 
 
-###Sample programs:
+###Sample programs (which are different from 05AB1E):
 
 
-Prints all prime numbers starting from 2:
+Prints the input squared:
 
-    0[>Dpi=}]
+    *
 
-Of course, if this was really golfed, this would be `0[>Dpi=`, since brackets in the end are unnecessary
+Of course, `n` would also do the job. However, `*` multiplies the input by itself rather than requesting for another input.
 
-Prints the n-th Fibonacci number (0-indexed):
+Prints n<sup>2</sup> + n:
     
-    1$<FDr+
+    n+
 
-
-
-###Huh wat lol?:
-
-A special feature from 05AB1E is that it doesn't necessarily have to take input by calling the input function.
-For example. The `+` function adds up the last two items in the stack. Calling this function on an empty stack would ask for input twice, and uses these for the `+` function. This also applies to function:
-
-Determines whether the number is prime or not:
-
-    p
-    
-Another special feature is the `$` command, which is commonly used for sequences (as you can see in the Fibonacci program). This first pushes the number `1` and then pushes the user input.
 
 ###Note:
 
