@@ -1,4 +1,4 @@
-**Note: ** This project has been abandoned. No other commands, et cetera, will be added to 2sable.
+**Note:** This project has been abandoned. No other commands, et cetera, will be added to 2sable.
 
 <hr>
 
