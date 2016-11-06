@@ -1,3 +1,7 @@
+**Note: ** This project has been abandoned. No other commands, et cetera, will be added to 2sable.
+
+<hr>
+
 # 2sable
 A new (experimental) golfing language, derivated from 05AB1E. The name **2sable** comes from the words two and usable, which results into twosable. Although it's very similar to 05AB1E, 2sable uses only **1 input**. This means that for example the program `*` doesn't request input twice, but only _once_.  
 
