@@ -8,7 +8,7 @@ A new (experimental) golfing language, derivated from 05AB1E. The name **2sable*
 For information about all the commands, go to _Info.txt_
 
 
-###Sample programs (which are different from 05AB1E):
+### Sample programs (which are different from 05AB1E):
 
 
 Prints the input squared:
@@ -22,6 +22,6 @@ Prints n<sup>2</sup> + n:
     n+
 
 
-###Note:
+### Note:
 
 Note that this is an unstable language, with a lot of bugs. If you find any, or have any suggestions, feel free to contact me :)
